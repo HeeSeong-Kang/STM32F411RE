@@ -11,9 +11,9 @@
 
 extern I2C_HandleTypeDef hi2c1;
 
+/* i2c lcd test main */
 void i2c_lcd_main(void)
 {
-
 	uint8_t value=0;
 	I2C_LCD1602_Init();
 
@@ -53,8 +53,8 @@ void lcd_command(uint8_t data, uint8_t RS)
 {
 	uint8_t highBit, lowBit;
 
-	highBit = 0xf0 & data;
-	lowBit = 0xf0 & (data<<4);
+	highBit = 0xf0 & data;		// Data high 4bit
+	lowBit = 0xf0 & (data<<4);	// Data low 4bit
 
 	wirte4bit(highBit, RS);
 	wirte4bit(lowBit, RS);

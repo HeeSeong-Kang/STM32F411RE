@@ -147,10 +147,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	if (getButtonState(PUSHBUTTON_PORT, PUSHBUTTON1, &preState))
-	{
-		HAL_GPIO_TogglePin(LED_GPIO, LED_ALL_PIN);
-	}
 	i2c_lcd_main();
   }
   /* USER CODE END 3 */
