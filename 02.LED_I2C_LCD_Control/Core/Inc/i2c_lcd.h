@@ -65,7 +65,7 @@
 
 
 void i2c_lcd_main(void);
-void I2C_LCD1602_Init();
+void I2C_LCD1602_init();
 void lcd_command(uint8_t data, uint8_t RS);
 void wirte4bit(uint8_t data, uint8_t RS);
 void lcd_X_Y_string_data(uint8_t row, uint8_t column, uint8_t *str);
