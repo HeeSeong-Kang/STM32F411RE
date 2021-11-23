@@ -8,4 +8,4 @@
 02. LED_I2C_LCD_CONTROL
 - GPIO LED
 - PUSH BUTTON
-- I2C LCD1602
+- I2C LCD1602 (https://www.waveshare.com/datasheet/LCD_en_PDF/LCD1602.pdf)
