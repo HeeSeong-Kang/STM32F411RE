@@ -9,3 +9,9 @@
 - GPIO LED
 - PUSH BUTTON
 - I2C LCD1602 (https://www.waveshare.com/datasheet/LCD_en_PDF/LCD1602.pdf)
+
+03.I2C_LCD_DHT11_Control
+- GPIO LED
+- PUSH BUTTON
+- I2C LCD1602 (https://www.waveshare.com/datasheet/LCD_en_PDF/LCD1602.pdf)
+- DHT11 (https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
